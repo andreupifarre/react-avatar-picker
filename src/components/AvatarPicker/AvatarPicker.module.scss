@@ -1,0 +1,39 @@
+.AvatarPicker {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.AvatarImage {
+  border: 1px solid transparent;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.AvatarImageHovered,
+.AvatarImage:hover,
+.AvatarImage:focus {
+  border-color: rgb(155, 160, 163);
+}
+
+.Popover {
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  transform-origin: 20px;
+  transform: scale(0.8);
+  transition: all 0.2s cubic-bezier(0.685, 1.555, 0.76, 1.545);
+  transition-delay: 100ms;
+  width: 0;
+}
+
+.PopoverExpanded {
+  pointer-events: all;
+  opacity: 1;
+  // transition: all 0.15s ease-out;
+  transform: scale(1);
+  // transform-origin: 20px 5px;
+}

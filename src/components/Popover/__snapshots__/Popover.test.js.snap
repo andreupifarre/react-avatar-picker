@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover should render correctly 1`] = `
+Array [
+  <div
+    className="Popover"
+  >
+    <h2
+      className="Title"
+    >
+      Choose your avatar
+    </h2>
+    <ul
+      className="AvatarImagesList"
+    >
+      <li
+        className="AvatarImageItem AvatarImageItemSelected"
+      >
+        <AvatarImage
+          id={1}
+          label="Avatar 1"
+          onClick={[Function]}
+          size={54}
+          src="avatar1.png"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+      <li
+        className="AvatarImageItem"
+      >
+        <AvatarImage
+          id={2}
+          label="Avatar 2"
+          onClick={[Function]}
+          size={54}
+          src="avatar2.png"
+        />
+        <div
+          className="AvatarImageSpinner"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+      <li
+        className="AvatarImageItem"
+      >
+        <AvatarImage
+          id={3}
+          label="Avatar 3"
+          onClick={[Function]}
+          size={54}
+          src="avatar3.png"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+      <li
+        className="AvatarImageItem"
+      >
+        <AvatarImage
+          id={4}
+          label="Avatar 4"
+          onClick={[Function]}
+          size={54}
+          src="avatar4.png"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+      <li
+        className="AvatarImageItem"
+      >
+        <AvatarImage
+          id={5}
+          label="Avatar 5"
+          onClick={[Function]}
+          size={54}
+          src="avatar5.png"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+      <li
+        className="AvatarImageItem"
+      >
+        <AvatarImage
+          id={6}
+          label="Avatar 6"
+          onClick={[Function]}
+          size={54}
+          src="avatar6.png"
+        />
+        <div
+          className="AvatarImageOverlay"
+        />
+      </li>
+    </ul>
+  </div>,
+]
+`;

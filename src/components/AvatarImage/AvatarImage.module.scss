@@ -1,0 +1,20 @@
+.AvatarImage {
+  position: relative;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.AvatarImageImg {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
